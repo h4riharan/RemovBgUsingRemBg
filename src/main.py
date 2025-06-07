@@ -8,7 +8,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allow all origins for local testing
+    allow_origins=["https://removebgbyh4ri.netlify.app"],  # Your Netlify frontend URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
