@@ -1,0 +1,10 @@
+# Ignore virtual environment folders
+venv/
+.env/
+ENV/
+env/
+# Ignore Python cache files and folders
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd

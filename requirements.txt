@@ -1,9 +1,4 @@
 fastapi
-uvicorn
+uvicorn[standard]
 rembg
-onnxruntime
-pillow
-numpy
-scipy
-pymatting
 python-multipart
